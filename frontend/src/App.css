@@ -1,0 +1,124 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 5vh auto;
+  width: 90vw;
+  border-radius: 30px;
+  height: 90vh;
+  box-shadow: 10px 10px 20px rgb(148, 148, 148);
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+.header h1 {
+  font-size: 2rem;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 8px 8px 5px rgb(177, 177, 177);
+}
+
+div.enviar {
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 8px 8px 5px rgb(177, 177, 177);
+}
+
+div.enviar input {
+  border: none;
+}
+
+div.enviar button {
+  background: rgb(0, 143, 190);
+  color: white;
+  border: none;
+  border-radius: inherit;
+}
+
+div.enviar button p {
+  margin: 0;
+}
+
+div.enviar button:hover {
+  cursor: pointer;
+}
+
+div.enviar input,
+button {
+  /* border: none; */
+  padding: 8px;
+}
+
+.conectar {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.desconectado {
+  margin: 0 auto;
+}
+
+.totalWaves {
+  margin: 20px auto;
+  font-size: 27px;
+}
+
+.minerando {
+  margin: 5px auto;
+}
+
+.address {
+  padding: 15px;
+  display: grid;
+  grid-template-rows: 200px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.container-wave {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 22px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+}

@@ -8,7 +8,7 @@ Esse projeto consiste em mandar mensagens ao smart contract e 50% de chances de 
 
 Para rodar o projeto
 ```shell
-git clone https://github.com/ojoaoguilherme/Blockchain-App.git
+git clone git@github.com:ojoaoguilherme/Blockchain-App.git
 yarn install ou npm install
 npx hardhat run Scripts/deploy --localhost
 cd frontend && yarn start
